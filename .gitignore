@@ -5,3 +5,5 @@ App/build/
 App/*.xcodeproj/
 App/DerivedData/
 .DS_Store
+*.ipa
+YTAdFree-unsigned-ipa/
