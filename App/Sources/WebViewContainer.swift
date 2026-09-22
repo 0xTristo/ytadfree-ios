@@ -12,6 +12,7 @@ struct WebViewContainer: UIViewRepresentable {
         let configuration = WKWebViewConfiguration()
         configuration.userContentController = contentController
         configuration.allowsInlineMediaPlayback = true
+        configuration.allowsPictureInPictureMediaPlayback = true
         configuration.mediaTypesRequiringUserActionForPlayback = []
         configuration.websiteDataStore = .default()
 

@@ -98,11 +98,17 @@
   } catch (e) {}
 
   // Cosmetic safety net: hide ad UI containers if anything still slips through.
+  // Attribute-contains selectors ([class*="..."]) catch YouTube's growing family
+  // of "ytp-ad-*" and "*-view-model" ad sub-components without listing every one.
   var HIDE_SELECTORS = [
     '.video-ads', '.ytp-ad-module', '.ytp-ad-overlay-container',
     'ytd-promoted-sparkles-web-renderer', 'ytd-display-ad-renderer',
     'ytd-ad-slot-renderer', '#masthead-ad', 'ytd-companion-slot-renderer',
-    '.ytp-ad-player-overlay-instream-info'
+    'ytd-companion-legal-text-renderer', '.ytp-ad-player-overlay-instream-info',
+    '[class*="ytp-ad-"]', '[id*="ytp-ad-"]', '[class*="companion"]',
+    'ad-image-view-model', 'ad-avatar-lockup-view-model', 'ad-avatar-view-model',
+    'ad-badge-view-model', 'ad-details-line-view-model', 'ad-button-view-model',
+    'top-banner-image-text-icon-buttoned-layout-view-model'
   ];
 
   function injectHideStyle() {
@@ -129,4 +135,30 @@
       video.currentTime = video.duration;
     }
   }, 400);
+
+  // Floating button to enter native iOS Picture-in-Picture, since YouTube's
+  // own web player controls don't expose WebKit's PiP entry point.
+  function ensurePipButton() {
+    var video = document.querySelector('video');
+    if (!video) return;
+    var btn = document.getElementById('ytadf-pip-btn');
+    if (btn) return;
+    btn = document.createElement('button');
+    btn.id = 'ytadf-pip-btn';
+    btn.textContent = '⧉';
+    btn.style.cssText = 'position:fixed;bottom:24px;right:16px;z-index:2147483647;'
+      + 'width:44px;height:44px;border-radius:22px;background:rgba(0,0,0,0.55);'
+      + 'color:#fff;font-size:20px;line-height:44px;text-align:center;border:none;padding:0;';
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var v = document.querySelector('video');
+      if (v && typeof v.webkitSetPresentationMode === 'function') {
+        var next = v.webkitPresentationMode === 'picture-in-picture' ? 'inline' : 'picture-in-picture';
+        v.webkitSetPresentationMode(next);
+      }
+    });
+    document.body.appendChild(btn);
+  }
+
+  setInterval(ensurePipButton, 1000);
 })();

@@ -1,0 +1,117 @@
+2026/09/22 02:10:49 Loading 0.60
+2026/09/22 02:10:49 Apps [] map[string][]*model.Installation{}
+2026/09/22 02:10:49 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:10:50 Sideloadly! Daemon v0.60 is running
+2026/09/22 02:10:50 Got device evt {{00008110-001809690C86601E false Tiphone iPhone14,5 18.7.8  false false <nil> <nil>} true}
+2026/09/22 02:10:50 Got device mobdev.DeviceInfo{Udid:"00008110-001809690C86601E", IsNetwork:false, Name:"Tiphone", devType:"iPhone14,5", version:"18.7.8", TvMac:"", tvPaired:false, m1:false, err:error(nil), cachedDev:(mobdev._Ctype_idevice_t)(nil)}
+2026/09/22 02:10:50 Device info: 00008110-001809690C86601E false &{00008110-001809690C86601E Tiphone false false false 2026-09-22 02:10:50.006591 -0700 PDT m=+0.430900001 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:10:50 Timeout stop: true
+2026/09/22 02:10:50 Drain failed?..
+2026/09/22 02:10:50 Will tick
+2026/09/22 02:10:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:2026-09-22 02:10:50.006591 -0700 -0700 LastChecked:2026-09-22 02:10:50.006591 -0700 -0700 LastError: FailuresCount:0}] map[string][]*model.Installation{}
+2026/09/22 02:10:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:10:50 Done tick
+2026/09/22 02:11:50 Got timeout, refreshing
+2026/09/22 02:11:50 Timeout stop: false
+2026/09/22 02:11:50 Drain failed?..
+2026/09/22 02:11:50 Will tick
+2026/09/22 02:11:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:2026-09-22 02:10:50.006591 -0700 -0700 LastChecked:2026-09-22 02:10:50.006591 -0700 -0700 LastError: FailuresCount:0}] map[string][]*model.Installation{}
+2026/09/22 02:11:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:11:50 Done tick
+2026/09/22 02:12:50 Got timeout, refreshing
+2026/09/22 02:12:50 Timeout stop: false
+2026/09/22 02:12:50 Drain failed?..
+2026/09/22 02:12:50 Will tick
+2026/09/22 02:12:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:2026-09-22 02:10:50.006591 -0700 -0700 LastChecked:2026-09-22 02:10:50.006591 -0700 -0700 LastError: FailuresCount:0}] map[string][]*model.Installation{}
+2026/09/22 02:12:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:12:50 Done tick
+2026/09/22 02:13:50 Got timeout, refreshing
+2026/09/22 02:13:50 Timeout stop: false
+2026/09/22 02:13:50 Drain failed?..
+2026/09/22 02:13:50 Will tick
+2026/09/22 02:13:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:2026-09-22 02:10:50.006591 -0700 -0700 LastChecked:2026-09-22 02:10:50.006591 -0700 -0700 LastError: FailuresCount:0}] map[string][]*model.Installation{}
+2026/09/22 02:13:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:13:50 Done tick
+2026/09/22 02:14:50 Got timeout, refreshing
+2026/09/22 02:14:50 Timeout stop: false
+2026/09/22 02:14:50 Drain failed?..
+2026/09/22 02:14:50 Will tick
+2026/09/22 02:14:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:2026-09-22 02:10:50.006591 -0700 -0700 LastChecked:2026-09-22 02:10:50.006591 -0700 -0700 LastError: FailuresCount:0}] map[string][]*model.Installation{}
+2026/09/22 02:14:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:14:50 Done tick
+2026/09/22 02:15:50 Got timeout, refreshing
+2026/09/22 02:15:50 Timeout stop: false
+2026/09/22 02:15:50 Drain failed?..
+2026/09/22 02:15:50 Will tick
+2026/09/22 02:15:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:2026-09-22 02:10:50.006591 -0700 -0700 LastChecked:2026-09-22 02:10:50.006591 -0700 -0700 LastError: FailuresCount:0}] map[string][]*model.Installation{}
+2026/09/22 02:15:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:15:50 Done tick
+2026/09/22 02:16:50 Got timeout, refreshing
+2026/09/22 02:16:50 Timeout stop: false
+2026/09/22 02:16:50 Drain failed?..
+2026/09/22 02:16:50 Will tick
+2026/09/22 02:16:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:2026-09-22 02:10:50.006591 -0700 -0700 LastChecked:2026-09-22 02:10:50.006591 -0700 -0700 LastError: FailuresCount:0}] map[string][]*model.Installation{}
+2026/09/22 02:16:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:16:50 Done tick
+2026/09/22 02:17:50 Got timeout, refreshing
+2026/09/22 02:17:50 Timeout stop: false
+2026/09/22 02:17:50 Drain failed?..
+2026/09/22 02:17:50 Will tick
+2026/09/22 02:17:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:2026-09-22 02:10:50.006591 -0700 -0700 LastChecked:2026-09-22 02:10:50.006591 -0700 -0700 LastError: FailuresCount:0}] map[string][]*model.Installation{}
+2026/09/22 02:17:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:17:50 Done tick
+2026/09/22 02:18:50 Got timeout, refreshing
+2026/09/22 02:18:50 Timeout stop: false
+2026/09/22 02:18:50 Drain failed?..
+2026/09/22 02:18:50 Will tick
+2026/09/22 02:18:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:0001-01-01 00:00:00 +0000 UTC LastChecked:0001-01-01 00:00:00 +0000 UTC LastError:Remote Anisette is not available for you; iTunes Anisette not available; Remote Anisette is not available for you; Cannot continue!
+If Local Anisette cannot be fixed then you may want to use Remote Anisette (available to our Patreon supporters) as it does not rely on your local system. FailuresCount:1}] map[string][]*model.Installation{}
+2026/09/22 02:18:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:18:50 Done tick
+2026/09/22 02:19:50 Got timeout, refreshing
+2026/09/22 02:19:50 Timeout stop: false
+2026/09/22 02:19:50 Drain failed?..
+2026/09/22 02:19:50 Will tick
+2026/09/22 02:19:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:0001-01-01 00:00:00 +0000 UTC LastChecked:0001-01-01 00:00:00 +0000 UTC LastError:Remote Anisette is not available for you; iTunes Anisette not available; Remote Anisette is not available for you; Cannot continue!
+If Local Anisette cannot be fixed then you may want to use Remote Anisette (available to our Patreon supporters) as it does not rely on your local system. FailuresCount:1}] map[string][]*model.Installation{}
+2026/09/22 02:19:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:19:50 Done tick
+2026/09/22 02:20:50 Got timeout, refreshing
+2026/09/22 02:20:50 Timeout stop: false
+2026/09/22 02:20:50 Drain failed?..
+2026/09/22 02:20:50 Will tick
+2026/09/22 02:20:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:0001-01-01 00:00:00 +0000 UTC LastChecked:0001-01-01 00:00:00 +0000 UTC LastError:Remote Anisette is not available for you; iTunes Anisette not available; Remote Anisette is not available for you; Cannot continue!
+If Local Anisette cannot be fixed then you may want to use Remote Anisette (available to our Patreon supporters) as it does not rely on your local system. FailuresCount:1}] map[string][]*model.Installation{}
+2026/09/22 02:20:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:20:50 Done tick
+2026/09/22 02:21:50 Got timeout, refreshing
+2026/09/22 02:21:50 Timeout stop: false
+2026/09/22 02:21:50 Drain failed?..
+2026/09/22 02:21:50 Will tick
+2026/09/22 02:21:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:0001-01-01 00:00:00 +0000 UTC LastChecked:0001-01-01 00:00:00 +0000 UTC LastError:Remote Anisette is not available for you; iTunes Anisette not available; Remote Anisette is not available for you; Cannot continue!
+If Local Anisette cannot be fixed then you may want to use Remote Anisette (available to our Patreon supporters) as it does not rely on your local system. FailuresCount:1}] map[string][]*model.Installation{}
+2026/09/22 02:21:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:21:50 Done tick
+2026/09/22 02:22:50 Got timeout, refreshing
+2026/09/22 02:22:50 Timeout stop: false
+2026/09/22 02:22:50 Drain failed?..
+2026/09/22 02:22:50 Will tick
+2026/09/22 02:22:50 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:0001-01-01 00:00:00 +0000 UTC LastChecked:0001-01-01 00:00:00 +0000 UTC LastError:Remote Anisette is not available for you; iTunes Anisette not available; Remote Anisette is not available for you; Cannot continue!
+If Local Anisette cannot be fixed then you may want to use Remote Anisette (available to our Patreon supporters) as it does not rely on your local system. FailuresCount:1}] map[string][]*model.Installation{}
+2026/09/22 02:22:50 Nothing to do for device &{00008110-001809690C86601E Tiphone false false false 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC  0}
+2026/09/22 02:22:50 Done tick
+2026/09/22 02:23:34 Tray icon activated 1
+2026/09/22 02:23:34 Context?
+2026/09/22 02:23:38 Tray icon activated 1
+2026/09/22 02:23:38 Context?
+2026/09/22 02:23:38 Closing shutdown
+2026/09/22 02:23:38 Waiting for worker to finish
+2026/09/22 02:23:38 Got device evt {{ false     false false <nil> <nil>} false}
+2026/09/22 02:23:38 Timeout stop: true
+2026/09/22 02:23:38 Drain failed?..
+2026/09/22 02:23:38 Will tick
+2026/09/22 02:23:38 Poller shutdown
+2026/09/22 02:23:38 Apps [{Udid:00008110-001809690C86601E Name:Tiphone IsM1:false IsTV:false WiFi:false LastSeen:0001-01-01 00:00:00 +0000 UTC LastChecked:0001-01-01 00:00:00 +0000 UTC LastError:Remote Anisette is not available for you; iTunes Anisette not available; Remote Anisette is not available for you; Cannot continue!
+If Local Anisette cannot be fixed then you may want to use Remote Anisette (available to our Patreon supporters) as it does not rely on your local system. FailuresCount:1}] map[string][]*model.Installation{}
+2026/09/22 02:23:43 WARNING: worker not responding?
+2026/09/22 02:23:43 Done!
