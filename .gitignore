@@ -1,0 +1,7 @@
+tools/venv/
+__pycache__/
+*.pyc
+App/build/
+App/*.xcodeproj/
+App/DerivedData/
+.DS_Store

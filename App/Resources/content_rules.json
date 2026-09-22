@@ -1,0 +1,257 @@
+[
+  {
+    "trigger": {
+      "url-filter": "doubleclick\\.net",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "googlesyndication\\.com",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "googleadservices\\.com",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "google-analytics\\.com",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "googletagmanager\\.com",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "googletagservices\\.com",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "adservice\\.google\\.com",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "imasdk\\.googleapis\\.com",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "static\\.doubleclick\\.net",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "securepubads\\.g\\.doubleclick\\.net",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "youtube\\.com/pagead/",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "youtube\\.com/api/stats/ads",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "youtube\\.com/ptracking",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "youtube\\.com/get_midroll_info",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "googlevideo\\.com/initplayback.*ad",
+      "resource-type": [
+        "document",
+        "image",
+        "script",
+        "raw",
+        "font",
+        "media",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  }
+]

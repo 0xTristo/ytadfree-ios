@@ -1,0 +1,2 @@
+# Aucune dependance externe pour l'instant (stdlib uniquement).
+# Ajouter ici si on automatise plus tard la recuperation de listes de filtres (ex: requests).
