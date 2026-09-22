@@ -6,4 +6,6 @@ App/*.xcodeproj/
 App/DerivedData/
 .DS_Store
 *.ipa
+*.zip
+*.log
 YTAdFree-unsigned-ipa/
